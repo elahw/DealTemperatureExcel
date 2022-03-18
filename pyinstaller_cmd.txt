@@ -1,0 +1,3 @@
+参考链接： http://io.pyexcel.org/en/latest/pyinstaller.html
+
+pyinstaller -F wendu.py --hidden-import pyexcel_xls --hidden-import pyexcel_io.readers.csvr --hidden-import pyexcel_io.readers.csvz --hidden-import pyexcel_io.readers.tsv --hidden-import pyexcel_io.readers.tsvz --hidden-import pyexcel_io.writers.csvw --hidden-import pyexcel_io.writers.csvz --hidden-import pyexcel_io.writers.tsv --hidden-import pyexcel_io.writers.tsvz --hidden-import pyexcel_io.database.importers.django --hidden-import pyexcel_io.database.importers.sqlalchemy --hidden-import pyexcel_io.database.exporters.django --hidden-import pyexcel_io.database.exporters.sqlalchemy
